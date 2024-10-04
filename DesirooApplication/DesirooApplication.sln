@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "desiroo.api", "desiroo.api\desiroo.api.csproj", "{5F048992-C755-4BF7-8E31-4F3A22049A42}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "desiroo.core", "desiroo.core\desiroo.core.csproj", "{1FF5F4BA-603E-4EA5-AE8A-A4CB049BB71C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "desiroo.domain", "desiroo.domain\desiroo.domain.csproj", "{9AC38F8B-869A-469B-A108-632DD58DBAD8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2A6380B7-B539-4AA0-BA23-4A82869D4756}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "desiroo.application", "desiroo.application\desiroo.application.csproj", "{09171AE9-E151-431F-9BF1-C736C43B75E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "desiroo.infrastructure", "desiroo.infrastructure\desiroo.infrastructure.csproj", "{EA58CB18-3E16-4DD8-BBAA-AA80B275EF85}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5F048992-C755-4BF7-8E31-4F3A22049A42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F048992-C755-4BF7-8E31-4F3A22049A42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F048992-C755-4BF7-8E31-4F3A22049A42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F048992-C755-4BF7-8E31-4F3A22049A42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FF5F4BA-603E-4EA5-AE8A-A4CB049BB71C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FF5F4BA-603E-4EA5-AE8A-A4CB049BB71C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FF5F4BA-603E-4EA5-AE8A-A4CB049BB71C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FF5F4BA-603E-4EA5-AE8A-A4CB049BB71C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9AC38F8B-869A-469B-A108-632DD58DBAD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AC38F8B-869A-469B-A108-632DD58DBAD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AC38F8B-869A-469B-A108-632DD58DBAD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AC38F8B-869A-469B-A108-632DD58DBAD8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09171AE9-E151-431F-9BF1-C736C43B75E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09171AE9-E151-431F-9BF1-C736C43B75E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09171AE9-E151-431F-9BF1-C736C43B75E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09171AE9-E151-431F-9BF1-C736C43B75E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA58CB18-3E16-4DD8-BBAA-AA80B275EF85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA58CB18-3E16-4DD8-BBAA-AA80B275EF85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA58CB18-3E16-4DD8-BBAA-AA80B275EF85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA58CB18-3E16-4DD8-BBAA-AA80B275EF85}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

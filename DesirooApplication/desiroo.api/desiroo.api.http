@@ -1,0 +1,6 @@
+@desiroo.api_HostAddress = http://localhost:5177
+
+GET {{desiroo.api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

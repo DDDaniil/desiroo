@@ -1,0 +1,4 @@
+enum WishlistTabs {
+  your,
+  friends,
+}
